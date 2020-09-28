@@ -3,7 +3,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    unsigned int lado;
+    cout << "Ingrese la medida del lado: "<< endl;
+    cin >> lado;
+    cout << "Area: " << lado*lado << endl;
 
     return 0;
 }
